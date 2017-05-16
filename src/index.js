@@ -1,5 +1,5 @@
 module.exports = {
-	tests: {
-		file: require( './tests/file.js' )
+	testing: {
+		file: require( './testing/file.js' )
 	}
 };

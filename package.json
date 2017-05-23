@@ -4,8 +4,8 @@
   "description": "Node project setup",
   "main": "./src/index.js",
   "scripts": {
-    "test": "./src/index.js",
-    "postinstall": "./src/install/index.js"
+    "test": "./node_modules/.bin/mocha --reporter spec --colors --timeout 10000 --async-only --recursive ./test",
+    "postinstall": "node ./src/install/index.js"
   },
   "repository": {
     "type": "git",
